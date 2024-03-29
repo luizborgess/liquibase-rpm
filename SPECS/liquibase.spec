@@ -24,7 +24,6 @@ rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/%{_bindir}
 mkdir -p $RPM_BUILD_ROOT/%{_datadir}/%{name}
 cp -r ./ $RPM_BUILD_ROOT/%{_datadir}/%{name}
-#cp %{name} $RPM_BUILD_ROOT/%{_bindir}
 rm -r $RPM_BUILD_ROOT/%{_datadir}/%{name}/examples
 ln -sf %{_datadir}/%{name}/%{name} $RPM_BUILD_ROOT/%{_bindir}
 
