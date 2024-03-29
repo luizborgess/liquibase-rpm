@@ -37,3 +37,4 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Fri Mar  29 2024 Luiz B <luizplayer2016@hotmail.com> - 4.27.0
 - First version being packaged
+
