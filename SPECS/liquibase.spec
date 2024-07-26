@@ -1,5 +1,5 @@
 Name:           liquibase
-Version:        4.28.0
+Version:        4.29.0
 Release:        1%{?dist}
 Summary:        Database Refactoring Tool
 License:        ASL 2.0
@@ -35,6 +35,9 @@ rm -rf $RPM_BUILD_ROOT
 /usr/share/*
 
 %changelog
+* Fri July  26 2024 Luiz B <luizplayer2016@hotmail.com> - 4.29.0
+- Bump version 4.29.0
+
 * Mon  May  27  2024 Luiz B <luizplayer2016@hotmail.com> - 4.28.0
 - Bump version
 
